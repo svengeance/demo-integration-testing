@@ -1,4 +1,4 @@
-﻿namespace IntegrationTestDemo.Web.Data.Entities;
+﻿namespace WeatherApiDemo.Web.Data.Entities;
 
 public record WeatherReading
 {

@@ -1,6 +1,6 @@
-using IntegrationTestDemo.Web.Data;
-using IntegrationTestDemo.Web.Infrastructure;
 using Microsoft.EntityFrameworkCore;
+using WeatherApiDemo.Web.Data;
+using WeatherApiDemo.Web.Infrastructure;
 
 // Begrudgingly use top-level minimal API setup magic
 var builder = WebApplication.CreateBuilder(args);

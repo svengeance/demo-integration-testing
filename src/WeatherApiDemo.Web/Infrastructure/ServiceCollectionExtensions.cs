@@ -1,13 +1,12 @@
-﻿using System.Collections.Immutable;
-using System.Text.Json;
-using IntegrationTestDemo.Web.Data;
-using IntegrationTestDemo.Web.Features.WeatherApi.Services;
-using IntegrationTestDemo.Web.Features.WeatherReadings.Services;
-using IntegrationTestDemo.Web.Infrastructure.Configuration;
+﻿using System.Text.Json;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
+using WeatherApiDemo.Web.Data;
+using WeatherApiDemo.Web.Features.WeatherApi.Services;
+using WeatherApiDemo.Web.Features.WeatherReadings.Services;
+using WeatherApiDemo.Web.Infrastructure.Configuration;
 
-namespace IntegrationTestDemo.Web.Infrastructure;
+namespace WeatherApiDemo.Web.Infrastructure;
 
 public static class ServiceCollectionExtensions
 {

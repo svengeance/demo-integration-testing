@@ -1,9 +1,8 @@
-﻿using IntegrationTestDemo.Web.Data.Entities;
-using IntegrationTestDemo.Web.Features.WeatherApi.Models;
-using IntegrationTestDemo.Web.Infrastructure.Configuration;
-using Microsoft.Extensions.Options;
+﻿using Microsoft.Extensions.Options;
+using WeatherApiDemo.Web.Features.WeatherApi.Models;
+using WeatherApiDemo.Web.Infrastructure.Configuration;
 
-namespace IntegrationTestDemo.Web.Features.WeatherApi.Services;
+namespace WeatherApiDemo.Web.Features.WeatherApi.Services;
 
 public interface IWeatherApiService
 {

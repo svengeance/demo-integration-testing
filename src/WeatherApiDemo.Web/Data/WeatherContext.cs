@@ -1,7 +1,7 @@
-﻿using IntegrationTestDemo.Web.Data.Entities;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using WeatherApiDemo.Web.Data.Entities;
 
-namespace IntegrationTestDemo.Web.Data;
+namespace WeatherApiDemo.Web.Data;
 
 public class WeatherContext: DbContext
 {

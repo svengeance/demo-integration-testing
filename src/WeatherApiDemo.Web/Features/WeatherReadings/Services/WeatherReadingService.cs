@@ -1,8 +1,8 @@
-﻿using IntegrationTestDemo.Web.Data;
-using IntegrationTestDemo.Web.Data.Entities;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using WeatherApiDemo.Web.Data;
+using WeatherApiDemo.Web.Data.Entities;
 
-namespace IntegrationTestDemo.Web.Features.WeatherReadings.Services;
+namespace WeatherApiDemo.Web.Features.WeatherReadings.Services;
 
 public interface IWeatherReadingService
 {

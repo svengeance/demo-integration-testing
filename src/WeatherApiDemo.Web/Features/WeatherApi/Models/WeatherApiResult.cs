@@ -1,4 +1,4 @@
-﻿namespace IntegrationTestDemo.Web.Features.WeatherApi.Models;
+﻿namespace WeatherApiDemo.Web.Features.WeatherApi.Models;
 
 public record WeatherApiResult(
     Location Location,

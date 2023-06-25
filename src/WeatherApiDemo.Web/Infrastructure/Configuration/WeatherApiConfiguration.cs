@@ -1,4 +1,4 @@
-﻿namespace IntegrationTestDemo.Web.Infrastructure.Configuration;
+﻿namespace WeatherApiDemo.Web.Infrastructure.Configuration;
 
 public record WeatherApiConfiguration
 {

@@ -1,10 +1,10 @@
-﻿using IntegrationTestDemo.Web.Data.Entities;
-using IntegrationTestDemo.Web.Features.WeatherApi.Extensions;
-using IntegrationTestDemo.Web.Features.WeatherApi.Services;
-using IntegrationTestDemo.Web.Features.WeatherReadings.Services;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using WeatherApiDemo.Web.Data.Entities;
+using WeatherApiDemo.Web.Features.WeatherApi.Extensions;
+using WeatherApiDemo.Web.Features.WeatherApi.Services;
+using WeatherApiDemo.Web.Features.WeatherReadings.Services;
 
-namespace IntegrationTestDemo.Web.Features.WeatherApi;
+namespace WeatherApiDemo.Web.Features.WeatherApi;
 
 [ApiController]
 [Route("[controller]")]

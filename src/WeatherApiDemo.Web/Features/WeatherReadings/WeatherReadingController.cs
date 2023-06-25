@@ -1,8 +1,8 @@
-﻿using IntegrationTestDemo.Web.Data.Entities;
-using IntegrationTestDemo.Web.Features.WeatherReadings.Services;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using WeatherApiDemo.Web.Data.Entities;
+using WeatherApiDemo.Web.Features.WeatherReadings.Services;
 
-namespace IntegrationTestDemo.Web.Features.WeatherReadings;
+namespace WeatherApiDemo.Web.Features.WeatherReadings;
 
 [ApiController]
 [Route("[controller]")]

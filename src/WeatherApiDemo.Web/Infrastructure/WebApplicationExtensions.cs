@@ -1,4 +1,4 @@
-﻿namespace IntegrationTestDemo.Web.Infrastructure;
+﻿namespace WeatherApiDemo.Web.Infrastructure;
 
 public static class WebApplicationExtensions
 {

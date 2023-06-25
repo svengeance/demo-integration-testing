@@ -1,7 +1,7 @@
-﻿using IntegrationTestDemo.Web.Data.Entities;
-using IntegrationTestDemo.Web.Features.WeatherApi.Models;
+﻿using WeatherApiDemo.Web.Data.Entities;
+using WeatherApiDemo.Web.Features.WeatherApi.Models;
 
-namespace IntegrationTestDemo.Web.Features.WeatherApi.Extensions;
+namespace WeatherApiDemo.Web.Features.WeatherApi.Extensions;
 
 public static class WeatherApiResultExtensions
 {
