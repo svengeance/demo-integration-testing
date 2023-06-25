@@ -4,7 +4,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApiDemo.Web", "src\W
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3FAC5F08-DB6D-46BF-8D24-6D745BA3B971}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApiDemo.IntegrationTests", "WeatherApiDemo.IntegrationTests\WeatherApiDemo.IntegrationTests.csproj", "{355196D1-7D94-4BBF-9037-08815DC462E6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApiDemo.IntegrationTests", "test\WeatherApiDemo.IntegrationTests\WeatherApiDemo.IntegrationTests.csproj", "{04E6A907-9ED2-4D83-B5FA-68F47C007F7E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,12 +16,12 @@ Global
 		{300C4A83-432F-48B7-8AFA-446CA4CB50F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{300C4A83-432F-48B7-8AFA-446CA4CB50F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{300C4A83-432F-48B7-8AFA-446CA4CB50F3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{355196D1-7D94-4BBF-9037-08815DC462E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{355196D1-7D94-4BBF-9037-08815DC462E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{355196D1-7D94-4BBF-9037-08815DC462E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{355196D1-7D94-4BBF-9037-08815DC462E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04E6A907-9ED2-4D83-B5FA-68F47C007F7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04E6A907-9ED2-4D83-B5FA-68F47C007F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04E6A907-9ED2-4D83-B5FA-68F47C007F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04E6A907-9ED2-4D83-B5FA-68F47C007F7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{355196D1-7D94-4BBF-9037-08815DC462E6} = {3FAC5F08-DB6D-46BF-8D24-6D745BA3B971}
+		{04E6A907-9ED2-4D83-B5FA-68F47C007F7E} = {3FAC5F08-DB6D-46BF-8D24-6D745BA3B971}
 	EndGlobalSection
 EndGlobal
