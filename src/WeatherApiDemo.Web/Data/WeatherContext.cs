@@ -5,7 +5,7 @@ namespace WeatherApiDemo.Web.Data;
 
 public class WeatherContext: DbContext
 {
-    public DbSet<WeatherReading> WeatherReadings { get; init; }
+    public DbSet<WeatherReading> WeatherReadings { get; init; } = null!;
 
     public WeatherContext(DbContextOptions<WeatherContext> options) : base(options)
     { }
