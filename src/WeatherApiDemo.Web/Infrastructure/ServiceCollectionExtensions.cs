@@ -27,7 +27,7 @@ public static class ServiceCollectionExtensions
         services.AddSwaggerGen();
         
         services.AddDbContext<WeatherContext>(
-            opts => opts.UseSqlite("DataSource=weatherdb.sqlite")
+            opts => opts.UseSqlite(configuration.GetConnectionString("WeatherDb"))
         );
 
         services.AddScoped<IWeatherApiService, WeatherApiService>();
