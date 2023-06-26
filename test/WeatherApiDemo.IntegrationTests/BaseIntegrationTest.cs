@@ -13,33 +13,24 @@ public abstract class BaseIntegrationTest: IAsyncLifetime, IClassFixture<TestSer
     protected IServiceScope ServiceScope { get; }
     protected WeatherContext WeatherContext { get; }
     protected Fixture Fixture { get; }
-
-    private DbConnection _dbConnection;
-
+    
     public BaseIntegrationTest(TestServices testServices)
     {
         Fixture = new Fixture();
         ServiceScope = testServices.Services.CreateScope();
         WeatherContext = ServiceScope.ServiceProvider.GetRequiredService<WeatherContext>();
-        
-        _dbConnection = new SqliteConnection("DataSource=:memory:");
     }
 
     public async Task InitializeAsync()
     {
-        await _dbConnection.OpenAsync();
-
-        WeatherContext.Database.SetDbConnection(_dbConnection);
-
+        await WeatherContext.Database.EnsureDeletedAsync();
         await WeatherContext.Database.EnsureCreatedAsync();
-        await WeatherContext.Database.MigrateAsync();
     }
 
-    public async Task DisposeAsync()
+    public Task DisposeAsync()
     {
-        await _dbConnection.DisposeAsync();
-     
         ServiceScope.Dispose();
+        return Task.CompletedTask;
     }
 }
 

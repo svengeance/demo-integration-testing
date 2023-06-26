@@ -36,7 +36,7 @@ public class TestServices: IAsyncLifetime
     private static void ConfigureTestConfiguration(IConfigurationBuilder builder)
         => builder.AddInMemoryCollection(new Dictionary<string, string?>
         {
-            ["ConnectionStrings:WeatherDb"] = "DataSource=:memory:"
+            ["ConnectionStrings:WeatherDb"] = "DataSource=weatherdb_test.sqlite"
         });
 
     public Task InitializeAsync()
