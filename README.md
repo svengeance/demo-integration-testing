@@ -3,6 +3,9 @@ A simple demonstration of how one might integration test an ASP.NET Core API.
 
 The primary objective of this app is to setup a few dependencies in a quick manner to demonstrate integration testing. The app doesn't make an awful lot of sense, but it _is_ real and functional, which is, I feel, a step up from other examples.
 
+## Rationality
+For further reading on the beliefs behind this setup, [feel free to read my article on the topic](https://sven.ai/Integration-Testing-in-ASP-NET-Core-With-Simplicity-and-Elegance).
+
 # Setup
 In short, the app expects the following configuration (via env vars, string args, user secrets, or appsettings json):
 
